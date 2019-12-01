@@ -1,5 +1,5 @@
 ### PRIJECT NAME
-quots
+quotes
 ### SCREEN SHOT
 
 ### PROJECT AUTHOR
