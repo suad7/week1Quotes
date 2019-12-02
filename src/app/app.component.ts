@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Quote } from './quote';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quotes';
-}
-export class Goal {
-  showDescription: boolean;
-  constructor(public id: number,public name: string,public description: string){
-    this.showDescription=false;
+  quotes:Quote[]=[];
+  addAquote(quotes){
+    const quoteDetail = this.quotes.length;
+    quotes.id = quoteDetail+1;
+    this.quotes.push(quotes);
+
   }
 }
+ 

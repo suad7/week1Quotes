@@ -1,3 +1,10 @@
 <div>
-    <h1>holla</h1>
+    <h1>Quotes</h1>
+<hr>
+<app-home (addedQuote)='addAquote($event)'></app-home>
 </div>
+<div *ngFor = 'let quote of quotes'>
+    <p>{{quote.author}}</p>
+    <p>{{quote.quote}}</p>
+    <p>{{quote.submittedBy}}</p>
+</div>  

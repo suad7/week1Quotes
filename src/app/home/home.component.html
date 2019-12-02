@@ -1,0 +1,18 @@
+<form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+    <div class="form-group">
+        <label for="author">Author</label>
+        <input required name="author" [(ngModel)]='newQuote.author' #author='ngModel' id="author" type="text" placeholder="Name..."
+            class="form-control">
+    <div class="alert -alert-danger" *ngIf="author.touched && !authoe.valid"></div>
+        </div>
+    <div class="form-group">
+        <label for="comment">comment</label>
+        <textarea name="comment" id="comment" cols="0" rows="6" [(ngModel)]='newQuote.quote' #comment='ngModel' placeholder="write a quote..."
+            class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="submittedby">submitted</label>
+        <input id="submittedby" name="submittedby" type="text" [(ngModel)]='newQuote.submittedBy' #submittedby='ngModel' placeholder="submitted by..." class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
