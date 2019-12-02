@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'quotes';
 }
+export class Goal {
+  showDescription: boolean;
+  constructor(public id: number,public name: string,public description: string){
+    this.showDescription=false;
+  }
+}
