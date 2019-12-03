@@ -19,9 +19,18 @@ This is a single web page that allows the user to post quotes and view the poste
 ### DEPLOYING (LIVE LINK)
 https://suad7.github.io/quotes/.
 ### BEHAVIOR DRIVEN DEVELOPMENT (SPECIFICATIONS)
--  Create a new quote.
-- 
--
+1.Input
+- Enter author's name
+- Write a quotes
+- Enter submieed by(your name)
+- Downvote or upvote your quotes
+
+2.Output
+- Summary:
+- Author's name
+- Quote 
+- submitted by (your name)
+- Time of submission
 ### CONTACT 
 sm.ha21@hotmail.com
 ### LICENSE 

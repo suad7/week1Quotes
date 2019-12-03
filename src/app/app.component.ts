@@ -8,6 +8,8 @@ import { Quote } from './quote';
 })
 export class AppComponent {
   title = 'quotes';
+  
+  todayDate=new Date
   quotes:Quote[]=[];
   addAquote(quotes){
     const quoteDetail = this.quotes.length;
