@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-background:url('../src/im.jpeg') no-repeat center center;
+background:url('../src/pic3.jpg')no-repeat center;
+display:cover;
 }
 .style{
-    margin:50%;
+    margin:0%;
 }

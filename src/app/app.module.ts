@@ -7,9 +7,9 @@ import { AppComponent } from "./app.component";
 import { HomeComponent } from "./home/home.component";
 import { HomePipe } from "./home.pipe";
 import {TimeAgoPipe} from 'time-ago-pipe';
-import { LikesComponent } from './likes/likes.component';
+
 @NgModule({
-  declarations: [AppComponent, HomeComponent,HomePipe,TimeAgoPipe, LikesComponent ],
+  declarations: [AppComponent, HomeComponent,HomePipe,TimeAgoPipe],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
