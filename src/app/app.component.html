@@ -3,7 +3,7 @@
     <hr>
     <app-home (addedQuote)='addAquote($event)'></app-home>
 </div>
-<br>
+
 <div class="container" *ngFor='let quote of quotes'>
     <p> SUMMARY:</p>
     <p> Author: {{quote.author}}</p>
