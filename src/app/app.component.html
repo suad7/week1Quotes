@@ -1,6 +1,6 @@
 <div>
     <h1>Quotes</h1>
-    
+    <hr>
     <app-home (addedQuote)='addAquote($event)'></app-home>
 </div>
 <br>
@@ -8,5 +8,5 @@
     <p> SUMMARY:</p>
     <p> Author: {{quote.author}}</p>
     <p> Quote: {{quote.quote}}</p>
-    <p>Submitted by: {{quote.submittedBy}} submitted {{quote.date | timeAgo}}</p>
+    <p>Submitted by: {{quote.submittedBy}}  submitted {{quote.date | timeAgo}}</p>
 </div>
