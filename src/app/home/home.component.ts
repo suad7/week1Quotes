@@ -2,7 +2,7 @@ import { Component, Output, EventEmitter,} from "@angular/core";
 import { Quote } from "../quote";
 @Component({
   selector: "app-home",
-  templateUrl: "./home.component.html"
+  templateUrl: "./home.component.html",
   styleUrls: ["./home.component.css"]
 })
 export class HomeComponent {
