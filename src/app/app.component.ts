@@ -7,7 +7,7 @@ import { Quote } from './quote';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'quotes';
+  title  = 'quotes';
   
   todayDate=new Date
   quotes:Quote[]=[];
