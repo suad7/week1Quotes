@@ -1,7 +1,8 @@
 ### PRIJECT NAME
 quotes
 ### SCREEN SHOT
-![screenshot](images/screenshot)
+![screenshot](https://user-images.githubusercontent.com/56633037/70134623-84ada000-1699-11ea-9aeb-0a40fbaa7117.png)
+
 ### PROJECT AUTHOR
 Suad M.Shire
 ### DESCRIPTION
